@@ -1,3 +1,3 @@
 # lcarreon
-geog3540/lcarreon - Carreon, Lillie
+GEOG3540/Lilliana Carreon: 
 Geovisualization Portfolio and Labs
