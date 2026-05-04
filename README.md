@@ -13,13 +13,13 @@ Geovisualization Portfolio and Labs
 <div class="container">
   <h1 class="page-header">About Me</h1>
 
-  <img src="yourphoto.jpg" class="img-responsive" style="max-width:300px;">
+<img width="650" height="610" alt="Screenshot 2026-05-04 113501" src="https://github.com/user-attachments/assets/20bb4c80-4099-48eb-94f3-34d8582aab4f" />
 
-  <p>My name is Lillie Carreon. I am an undergraduate student at the University of Iowa studying enviornmental science, geography and sustainability, and geographic information science. My academic interests include LiDAR-based hydrology, ecological mapping, and geospatial data visualization. I enjoy working with ArcGIS Pro, Observable Plot, QGIS, Envi 5.7, and JavaScript-based mapping tools. Outside academics, I enjoy environmental fieldwork, gaining cultural education through travel, as well as hiking and being outdoors.</p>
+  <p>My name is Lilliana Carreon. I am an undergraduate student at the University of Iowa studying enviornmental science, geography and sustainability, and geographic information science. My academic interests include LiDAR-based hydrology, ecological mapping, and geospatial data visualization. I enjoy working with ArcGIS Pro, Observable Plot, QGIS, Envi 5.7, and JavaScript-based mapping tools. Outside academics, I enjoy environmental fieldwork, gaining cultural education through travel, as well as hiking and being outdoors.</p>
 
-  <p><a href="resume.pdf">Resume/CV</a> | 
+  <p><a href="https://drive.google.com/file/d/1ktRYuzUgd0lteNlfR8_D1OmGtgihIg-W/view?usp=sharing">Resume/CV</a> | 
      <a href="index.html">Back to Portfolio</a> | 
-     <a href="mailto:caglar-koylu@uiowa.edu">Contact</a></p>
+     <a href="mailto:lilliana-carreon@uiowa.edu">Contact</a></p>
 </div>
 </body>
 </html>
