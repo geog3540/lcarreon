@@ -1,17 +1,16 @@
-# lcarreon
-GEOG3540/Lilliana Carreon: 
+# Lilliana Carreon
+GEOG:3540/Lilliana Carreon: 
 Geovisualization Portfolio and Labs
 <!DOCTYPE html>
 <html>
 <head>
-  <title>About Me – Lilliana Carreon</title>
   <link href="style.css" rel="stylesheet">
   <link href="startbootstrap-3-col-portfolio-master/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
 <div class="container">
-  <h1 class="page-header">About Me: Lilliana Carreon</h1>
+  <h1 class="page-header">About Me</h1>
 
 <a href=""><img class="card-img-top" src="images/Headshot.png" alt=""></a>
 
