@@ -11,8 +11,8 @@ Geovisualization Portfolio and Labs
 
 <body>
 <div class="container">
-  <h1 class="page-header">About Me</h1>
-  
+  <h1 class="page-header">About Me: Lilliana Carreon</h1>
+
 <a href=""><img class="card-img-top" src="images/Headshot.png" alt=""></a>
 
   <p>My name is Lilliana Carreon. I am an undergraduate student at the University of Iowa studying enviornmental science, geography and sustainability, and geographic information science. My academic interests include LiDAR-based hydrology, ecological mapping, and geospatial data visualization as you can read in the biography section of this website. This site includes various projects and assignments I have worked on during a semester-long Geographic Visualization (SEES:3540) course at University. Each map includes a brief description and a link to the notebook it was derived from where my direct javascript code can be accessed. </p>
