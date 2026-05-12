@@ -1,91 +1,177 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Lillie Carreon – Geovisualization Portfolio</title>
-  <link href="style.css" rel="stylesheet">
-  <link href="startbootstrap-3-col-portfolio-master/css/bootstrap.min.css" rel="stylesheet">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title> Lilliana Carreon's Geovisualization Portfolio</title>
+
+<!-- Bootstrap core CSS -->
+<link href="startbootstrap-3-col-portfolio-master\vendor\bootstrap\css\bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="startbootstrap-3-col-portfolio-master\vendor\bootstrap\css/3-col-portfolio.css" rel="stylesheet">
+
 </head>
 
 <body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 <div class="container">
-  <h1 class="page-header">Lillie Carreon – Geovisualization Portfolio</h1>
+<a class="navbar-brand" href="#">Lilliana Carreon's Geovisualization Portfolio</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item active">
+<a class="nav-link" href="index.html">Home
+<span class="sr-only">(current)</span>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="shortbio.html">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="Files/Lilliana Carreon Educational Resume 2026.pdf">Resume</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="mailto:lilliana-carreon@uiowa.edu">Contact</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
 
-  <p>Welcome to my GEOG 3540 web portfolio. This site hosts all mapping assignments including choropleth, point symbol, isarithmic, bivariate, and flow mapping. Each project includes a description, image, and link to the Observable notebook.</p>
+<!-- Page Content -->
+<div class="container">
 
-  <p><a href="shortbio.html">About Me / Short Bio</a> | 
-      <p><a href="https://drive.google.com/file/d/1ktRYuzUgd0lteNlfR8_D1OmGtgihIg-W/view?usp=sharing">Resume/CV</a>  | 
-     <a href="mailto:lilliana-carreon@uiowa.edu">Contact</a></p>
-
-  <div class="row">
-
-  <div class="row">
-
-  <!-- Choropleth -->
-  <div class="col-md-4 portfolio-item">
-    <a href="https://observablehq.com/d/83a0aaf092dcbeb6" target="_blank">
-     <iframe width="100%" height="805" frameborder="0"
-  src="https://observablehq.com/embed/83a0aaf092dcbeb6?cells=choropleth"></iframe>
-    </a>
-    <h3>Choropleth Mapping</h3>
-    <p>When looking at the spatial patterns within my choropleth map of the total acreage of forests across Wisconsin counties, the map displays a fairly clear structure across the state. Forest cover does not appear to be evenly distributed; however, it seems to form distinct regional patterns that could align with Wisconsin's physical geography. Counties in the northern half of the state have relatively high forest percentages, with several counties exceeding 50% (these appear in the darkest shade of green on the map). On the other hand, areas in the southeastern part of the state had much lower percentages, likely under 20% (seen in the lighter shades of green).
-There is a strong north-south gradient which could be due to the Northwoods region. The southwestern part of the map shows moderate forest cover, but it isn't as dense as the northern part. The other remaining counties all formed a cluster of low-forest counties, which could be due to intensive agriculture and urban development in these areas- I say this because I know Milwaukee falls within this cluster and is extremely urbanized, lacking a lot of natural vegetation.
-Classification influenced this visible pattern because using a sequential color scheme, along with natural breaks, allowed for this distinction to emphasize the contrast between classes the most effectively. Green was the selected color because it is highly associated with vegetation, with darker colors being interpreted as highly forested areas, and lighter colors reflecting a lack of vegetation, making this map easily interpretable. Natural breaks highlighted the difference in classes well by showing major jumps in forest percentage, especially highlighting the dense forests in the northern part of Wisconsin.</p>
-  </div>
-
-  <!-- Graduated Symbols -->
-  <div class="col-md-4 portfolio-item">
-    <a href="https://observablehq.com/d/8ce22c7e02249574" target="_blank">
-      <iframe width="100%" height="882" frameborder="0"
-  src="https://observablehq.com/embed/8ce22c7e02249574?cells=graduatedSymbols"></iframe>
-    </a>
-    <h3>Graduated Symbols</h3>
-    <p>Looking at this map of Wisconsin counties' boat access sites, the graduated symbols depict that some regions of Wisconsin have significantly higher concentrations of boat access sites. This can be seen in larger and darker green circles representing higher values, and smaller, lighter yellow circles showing lower values. These clusters identified could be due to areas with many lakes or popular recreational regions, contributing to an increased amount of ramps/other forms of boat access sites. While, on the other hand, other counties could have less recreationally friendly bodies of water. There does appear to be a clear increase of concentration in the northern region of Wisconsin, with more larger and darker circles being present, which is direct evidence of more distribution of water bodies and therefore tourism as well. The point dataset represents boat access sites in Wisconsin, originally provided as a shapefile and converted to GeoJSON for use in Observable.
-The basemap is of Wisconsin county polygons, also originally in shapefile format and converted to TopoJSON.
-The geographic coverage is the entire state of Wisconsin at the county level
-The time period is when the boat access data were collected (2019).
-Processing: I aggregated individual boat access points to the county level by counting how many sites fall within each county, then joined those counts to the county polygons. I then applied an Albers projection tailored to Wisconsin to balance shape and area distortion.
-Potential sources of uncertainty: missing or mislocated points, differences in data collection methods, and manual classification can sometimes emphasize some patterns while downplaying others.</p>
-  </div>
-
-</div> <!-- closes first row -->
+<!-- Page Heading -->
+<h1 class="my-4">Geovisualization Portfolio
+<small>GEOG:3540</small>
+</h1>
 
 <div class="row">
+<div class="col-lg-4 col-sm-6 portfolio-item">
+<div class="card h-100">
+<a href="https://observablehq.com/d/83a0aaf092dcbeb6"><img class="card-img-top" src="images/ChoroplethMap.png" alt=""></a>
+<div class="card-body">
+<h4 class="card-title">
+<a href="https://observablehq.com/d/83a0aaf092dcbeb6">Wisconsin Counties Total Acreage of Forests: Choropleth Map</a>
+</h4>
+<p class="card-text">This is a choropleth map of the total acreage of forests across Wisconsin counties. Classification selected for this visual included a sequential color scheme with natural breaks.  </p>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6 portfolio-item">
+<div class="card h-100">
+<a href="https://observablehq.com/d/8ce22c7e02249574"><img class="card-img-top" src="images/GraduatedSymbolsMap.png" alt=""></a>
+<div class="card-body">
+<h4 class="card-title">
+<a href="https://observablehq.com/d/8ce22c7e02249574">Wisconsin Counties Percentage of Boat Access Sites: Graduated Symbol Map</a>
+</h4>
+<p class="card-text">This is a graduated symbol map of Wisconsin counties' boat access sites. This can be seen in larger and darker green circles representing higher values, and smaller, lighter yellow circles showing lower values. A manual classification of 4 classes was used to depict the point data. </p>
+</div>
+</div>
+</div>
 
-  <!-- Bivariate -->
-  <div class="col-md-4 portfolio-item">
-    <a href="https://observablehq.com/d/c1c45e7faea56eef" target="_blank">
-      <iframe width="100%" height="695" frameborder="0"
-  src="https://observablehq.com/embed/c1c45e7faea56eef?cells=chart"></iframe>
-    </a>
-    <h3>Bivariate Mapping</h3>
-    <p>In this bivariate choropleth map, I compared "% age 65 and over, and % age 18 and under" across Wisconsin counties. The 2 variables I chose represent opposing sides on the age structure, which allowed me to determine which counties are primarily dominated by older communities, and which counties are primarily dominated by younger communities. Looking at the spatial patterns, areas where there was a high percentage of age 65+, and a lower percentage of under 18-year-olds, were represented by dark purple (upper left of the legend). These counties appeared to be primarily located in the northern and more rural Wisconsin counties, which could be correlated to aging populations, the outmigration of younger adults, and more limited birth rates. Teal colored counties (lower right of legend) represented a low percentage of age 65+, and a high percentage of 18 and under. These counties were located more near urban areas where younger families are usually more common (such as Madison, Milwaukee, etc.). High-High relationships for both categories were shown in dark blue (upper right) and tended to be located in substantially fewer counties than the other categories. It appeared to be pretty unlikely for a county to have both a large old and young population simultaneously. A low-low relationship was shown in light gray (lower left), reflecting a more balanced age structure demographic, and these appeared in more central Wisconsin counties. Overall, I can see a fairly clear geographic divide in the age structure, where Northern Wisconsin appears to have older communities, and Southern/urban areas of Wisconsin have younger families. I also want to note that these variables are negatively correlated, so counties with higher elderly populations will have fewer children. 
-Data Sources: Polygon boundaries were from Wisconsin county boundaries (Tiger-shapefiles) that I converted into a TopoJSON using Mapshaper.
-Attributes (csv): American Community Survey (ACS) 2025 5-year estimates, table S0101: Age & Sex, downloaded from data.census.gov
-Geographic coverage: All 75 Wisconsin counties
-Geographic Resolution: County-level polygons
-Time period: ACS 2023 5-year estimates show 2019-2023 aggregated survey data collected.
-Preprocessing steps include simplifying and exporting the original Wisconsin county shapefile into a TopoJSON, cleaning the ACS S0101 CSV by normalizing the variables, and joining the CSV to the TopoJSON using a shared GEOID field.
-Uncertainty and Bias: ACS data are survey estimates so there is the potential for sampling error. Rural counties with small populations could have less data/more MOE's, age structure is changing and can be relevant to seasonal populations/retirement communities, and the TopoJSON I created can sometimes alter boundary shapes.</p>
-  </div>
+<div class="col-lg-4 col-sm-6 portfolio-item">
+<div class="card h-100">
+<a href="https://observablehq.com/@caglarkoylu/isarithmic-mapping-geog-3540"><img class="card-img-top" src="images/untitled.png" alt=""></a>
+<div class="card-body">
+<h4 class="card-title">
+<a href="https://observablehq.com/@caglarkoylu/isarithmic-mapping-geog-3540">Yearly Total Precipitation in Iowa: Isarithmic Map</a>
+</h4>
+<p class="card-text">This isarithmic map is the yearly total precipitation in the state of Iowa. It clearly shows by the darkest color that Northeastern Iowa gets the most precipitation yearly and the southern and western most get the least.</p>
+</div>
+</div>
+</div>
 
-    <!-- Isarithmic -->
-  <div class="col-md-4 portfolio-item">
-    <a href="https://observablehq.com/@geovis6/isarithmic-mapping-geog-3540" target="_blank">
-      <iframe width="100%" height="500" frameborder="0"
-  src="https://observablehq.com/embed/5160fb92a9b88273?cell=*"></iframe>
-    </a>
-    <h3>Isarithmic Mapping</h3>
-    <p>The isarithmic map reveals clear spatial gradients in watershed ecological health across Wisconsin, illustrating how environmental conditions transition smoothly from one region to another rather than shifting abruptly at watershed boundaries. Higher ecological index values (60–100) form broad zones across the northern forested regions, reflecting strong wetland and forest retention, lower development pressure, and fewer hydrologic alterations. Mid‑range values (40–60) appear across central Wisconsin, where mixed land use creates a balance of healthy and stressed conditions. Lower values (0–40) cluster more prominently in the southern and southeastern agricultural and urbanized regions, where nutrient loading, cropland intensity, and population density exert greater ecological stress. By interpolating these values into continuous surfaces, the isarithmic map highlights the underlying environmental gradients that shape watershed health statewide, making regional patterns and transitions more visually intuitive than discrete watershed polygons alone. I do want to note that I included a second image of the two files utilized in this map creation to show that the data didn't cover the entire state of Wisconsin to begin with; therefore, there were no issues with translations or map projections that resulted in some of the data being missing from this map.</p>
-  </div>
-
-  <!-- Flow Map -->
-  <div class="col-md-4 portfolio-item">
- </p> <a href="Assignment6_flowmapper/flowmap.html">Assignment 6 Thumbnail</a> 
-    <iframe src="https://drive.google.com/file/d/1zL1Rk898E0O65IiLRgXfGl4hS742woMs/preview" width="640" height="480"></iframe>
-</a>
-    <h3>Flow Mapping</h3>
-    <p>The first pattern I noticed when looking at this map was the major receiving locations, or the highest Netflow values. This is represented through the largest nodes, which also represents where individuals/families converged rather than dispersed. The most prominent areas of this pattern appear to be in the Southern/West areas of the U.S. which exhibit large node sizes that show a significant attraction during the time period (1887-1924). The smaller/negatively valued node sizes represent areas that didn’t experience much convergence, and genealogical lines dispersed outwards. This suggests, to me, that certain less populated areas would be utilized as sources rather than a final destination. Overall, the direction of flow seems to be fairly concentrated towards east to west and north to south corridors. This pattern is depicted through the size of flow lines, with the thickest line being correlated to the most dominant moving pathway. When thinking about potential reasons behind this movement, using historical context I know that U.S. settlement and migration was especially high during the late 19th century/early 20th century. Looking at the map as a whole, the relationship between all three factors (nodes, choropleth map, and flow lines), I can identify a pattern of high total flow (as seen by darker colors on the choropleth map) being aligned with higher node size (large netflow). The interpretation of this is essentially that places with a high genealogical activity overall, will also likely be receivers or hubs in the family tree network. On the other hand, areas with a lower total flow, will show smaller connections and a weaker role across the genealogical landscape. A final conclusion I can make from the Flow Map I created utilizing the Family Tree Network is that high activity regions act as central hubs for migration, peripheral regions will send more flows than they receive, and finally dominant pathways are heavily aligned with historical context identified. 
+<div class="col-lg-4 col-sm-6 portfolio-item">
+<div class="card h-100">
+<a href="https://observablehq.com/d/c1c45e7faea56eef"><img class="card-img-top" src="images/BivariateMap.png" alt=""></a>
+<div class="card-body">
+<h4 class="card-title">
+<a href="https://observablehq.com/d/c1c45e7faea56eef"> Wisconsin County Percent Age Over 65 and Percentage Under 18 Years Old: Bivariate Map</a>
+</h4>
+<p class="card-text"> This bivariate choropleth map compares "% age 65 and over, and % age 18 and under" across Wisconsin counties. This data was obtained from the U.S. Census Bureau's American Community Survey 5-year estimates (2015-2019).
 </p>
-  </div>
+</div>
+</div>
+</div>
 
-</div> <!-- closes second row -->
+<div class="col-lg-4 col-sm-6 portfolio-item">
+<div class="card h-100">
+<a href="flowmap.html"><img class="card-img-top" src="images/FlowmapperMap.png" alt=""></a>
+<div class="card-body">
+<h4 class="card-title">
+<a href="flowmap.html">Migration of US Families Between 1887-1942: Flow Map</a>
+</h4>
+<p class="card-text">This flow map shows the migration of families between capital cities of select states between 1887-1942. Changes in numbers is indicated by colors and arrow size.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6 portfolio-item">
+<div class="card h-100">
+<a href="https://observablehq.com/d/05a58f693dc49d7c"><img class="card-img-top" src="images/FinalProjectBivariate.png" alt=""></a>
+<div class="card-body">
+<h4 class="card-title">
+<a href="https://observablehq.com/d/05a58f693dc49d7c">Final Project: Pollination and Terrestrial Habitats</a>
+</h4>
+<p class="card-text">This bivariate map shows the relationship between pollinator movement and terrestrial habitat distribution across the state of Wisconsin, at the county level. A notebook to the relationships has been attached, providing insight to the overall distribution and correlation between the two variables. The overall goals within our project were to analyze how pollination services can vary across terrestrial habitat systems in the Midwest. We will also aim to determine how habitat composition can influence the ability of landscapes to support a variety of pollinator communities.</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<!-- /.row -->
+
+<!-- Pagination -->
+<ul class="pagination justify-content-center">
+<li class="page-item">
+<a class="page-link" href="#" aria-label="Previous">
+<span aria-hidden="true">&laquo;</span>
+<span class="sr-only">Previous</span>
+</a>
+</li>
+<li class="page-item">
+<a class="page-link" href="#">1</a>
+</li>
+<li class="page-item">
+<a class="page-link" href="#">2</a>
+</li>
+<li class="page-item">
+<a class="page-link" href="#">3</a>
+</li>
+<li class="page-item">
+<a class="page-link" href="#" aria-label="Next">
+<span aria-hidden="true">&raquo;</span>
+<span class="sr-only">Next</span>
+</a>
+</li>
+</ul>
+
+</div>
+<!-- /.container -->
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+<div class="container">
+<p class="m-0 text-center text-white">Copyright &copy; Lilliana Carreon 2026</p>
+</div>
+<!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
